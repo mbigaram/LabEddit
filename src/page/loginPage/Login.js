@@ -2,6 +2,8 @@ import React from 'react'
 import imgLogo from "../../assets/img/imgLogo.png"
 import "./styles.css"
 import { ChakraProvider } from '@chakra-ui/react'
+import { useNavigate } from "react-router-dom";
+import { goToRegisterPage} from "../../router/coordinator";
 import {
     Flex,
     Box,
@@ -12,9 +14,12 @@ import {
 
 
 const Login = () => {
+
+    const navigate = useNavigate()
+
     return (
         <div>
-            <div className='DivLogin'>
+            <div className='div-login'>
                 <img className="img" src={imgLogo} alt="Logo img" />
                 <p className="labeddit">LabEddit</p>
                 <p className="paragrafo">O projeto de rede social da Labenu</p>
@@ -69,6 +74,7 @@ const Login = () => {
                                         borderRadius='30'
                                         border='1px'
                                         bg='white'
+                                        onClick={() => goToRegisterPage(navigate)}
                                     >
                                         Crie uma conta!
                                     </Box>
