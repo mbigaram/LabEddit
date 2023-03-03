@@ -62,18 +62,18 @@ const Register = () => {
                                     </FormControl>
                                 </Stack>
                                 <Stack
-                                fontSize='sm'
-                                    direction={{ base: 'column', sm: 'row' }}
+                                    fontSize='sm'
+                                    direction={{ base: 'column'}}
                                     align={'start'}
                                     justify={'space-between'}>
-                                        <Text>Ao continuar, você concorda com o nosso 
-                                    <Link color={'blue.400'}> Contrato de usuário</Link> e nossa<Link color={'blue.400'}> Política de privacidade</Link>
+                                    <Text>Ao continuar, você concorda com o nosso
+                                        <Link color={'blue.400'}> Contrato de usuário</Link> e nossa<Link color={'blue.400'}> Política de privacidade</Link>
                                     </Text>
                                     <Checkbox>
                                         <Text
-                                        fontSize='sm'>Eu concordo em receber emails sobre coisas legais no Labeddit
+                                            fontSize='sm'>Eu concordo em receber emails sobre coisas legais no Labeddit
                                         </Text>
-                                        </Checkbox>
+                                    </Checkbox>
 
                                 </Stack>
                                 <Stack

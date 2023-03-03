@@ -3,7 +3,7 @@ import imgLogo from "../../assets/img/imgLogo.png"
 import "./styles.css"
 import { ChakraProvider } from '@chakra-ui/react'
 import { useNavigate } from "react-router-dom";
-import { goToRegisterPage} from "../../router/coordinator";
+import { goToRegisterPage, goToPostPage} from "../../router/coordinator";
 import {
     Flex,
     Box,
@@ -59,6 +59,7 @@ const Login = () => {
                                         color='white'
                                         borderRadius='30'
                                         bgGradient='linear(to-r, #FF6787, #FAB050)'
+                                        onClick={() => goToPostPage(navigate)}
                                     >
                                         Continuar
                                     </Box>
