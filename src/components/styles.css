@@ -8,9 +8,10 @@
     padding-top: 10px;
 }
 .logout, .entrar{
-    color: #2e6da4;
+    color: #4088CB;
+    font-weight: bold;
     position:absolute;
-    right: 10px;
+    right: 35px;
     top: 9px;
 }
 

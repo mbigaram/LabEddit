@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "../page/loginPage/Login";
 import Register from "../page/registerPage/Register";
 // import NotFoundPage from "../pages/NotFoundPage/NotFoundPage";
-// import PokedexPage from "../pages/PokedexPage/PokedexPage";
+import PostsPage from "../page/postPage/Posts";
 // import PokemonDetailPage from "../pages/PokemonDetailPage/PokemonDetailPage";
 
 function Router() {
@@ -23,13 +23,13 @@ function Router() {
             <Register />
           }
         />
-        {/*<Route
-          path="/details/:name"
+        <Route
+          path="/posts"
           element={
-            <PokemonDetailPage />
+            <PostsPage />
           }
         />
-        <Route
+        {/*<Route
           path="*"
           element={
             <NotFoundPage />
