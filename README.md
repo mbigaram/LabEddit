@@ -20,6 +20,7 @@ Foi seguido o modelo do Figma abaixo um design de app mobile first:
 Crie repositórios pessoais separados para o front e para o back, pois facilita o processo de deploy.
 
 ## 🔗Link de Acesso
+* *Visualize o site: * [Clique aqui!](https://labeddit-mb.surge.sh/)
 * *Acesso ao repositório Labeddit-Back-End:* [Clique aqui!](https://github.com/mbigaram/Labeddit-b)
 
 
